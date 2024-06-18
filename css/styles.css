@@ -234,13 +234,6 @@ ol {
   flex-direction: column;
   padding: 32px 0;
 }
-.additional-container-sm {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 24px;
-}
 .socal-media-icons {
   display: inline-block;
   align-items: center;
