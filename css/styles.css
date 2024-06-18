@@ -241,8 +241,6 @@ ol {
   flex-direction: row;
   gap: 24px;
 }
-.header-social-link {
-}
 .socal-media-icons {
   display: inline-block;
   align-items: center;
