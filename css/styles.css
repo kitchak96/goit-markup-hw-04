@@ -88,6 +88,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
@@ -95,10 +96,18 @@ ol {
 }
 .section-one {
   background-color: #2e2f42;
-  width: 1440px;
+  max-width: 1440px;
   height: 600px;
   margin: 0 auto;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .text-section-one {
   max-width: 496px;
@@ -140,6 +149,7 @@ ol {
   min-width: 169px;
   height: 56px;
   border: none;
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-order:hover,
