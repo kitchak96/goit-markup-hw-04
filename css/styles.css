@@ -254,7 +254,7 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: backgraund-color #404bbf;
+  transition: background-color #404bbf;
 }
 .header-social-link:hover,
 .header-social-link:focus {
