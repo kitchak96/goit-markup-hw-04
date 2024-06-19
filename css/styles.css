@@ -439,7 +439,7 @@ ol {
 img {
   display: block;
 }
-.Social-media-footer {
+.social-media-footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -447,7 +447,7 @@ img {
   color: #FFFFFF;
   margin-bottom: 16px;    
 }
-.Social-media-list-footer {
+.social-media-list-footer {
   display: flex; 
   gap: 16px; 
 }
