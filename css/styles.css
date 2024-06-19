@@ -439,7 +439,7 @@ ol {
 img {
   display: block;
 }
-.Social media-footer{
+.Social media-footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -449,12 +449,12 @@ img {
  
     
 }
-.Social media list-footer
-{
+.Social media list-footer {
   display: flex;
   gap: 16px;
 }
 .instagram-footer {
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-block;
   width: 40px; 
   height: 40px;
