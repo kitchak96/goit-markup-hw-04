@@ -235,6 +235,7 @@ ol {
   padding: 32px 0;
 }
 .socal-media-icons {
+  fill: #f4f4fd;
   display: inline-block;
   align-items: center;
   justify-content: center;
@@ -243,6 +244,19 @@ ol {
   display: flex;
   justify-content: center;
   gap: 24px;
+}
+.header-social-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: backgraund-color #404bbf;
+}
+.header-social-link:hover {
+  color: #404bbf;
 }
 .list-of-icons {
   background-color: #4d5ae5;
@@ -385,6 +399,9 @@ ol {
   height: 312px;
   border: 0;
   margin-left: 156px;
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
 }
 img {
   display: block;
