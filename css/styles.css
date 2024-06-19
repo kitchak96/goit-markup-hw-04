@@ -65,7 +65,7 @@ ol {
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .current {
   position: relative;
@@ -95,7 +95,7 @@ ol {
 }
 .address-link:hover,
 .address-link:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .section-one {
   background-color: #2e2f42;
@@ -256,7 +256,7 @@ ol {
   transition: backgraund-color #404bbf;
 }
 .header-social-link:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 .list-of-icons {
   background-color: #4d5ae5;
