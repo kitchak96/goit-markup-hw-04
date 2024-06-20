@@ -430,10 +430,13 @@ ol {
   width: 1440px;
   height: 312px;
   border: 0;
-  margin-left: 156px;
+  
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
+
+
+  margin: 0 auto; 
+  padding: 0 120px;
 }
 img {
   display: block;
