@@ -395,6 +395,7 @@ ol {
   background-color: #2e2f42;
   padding: 100px 0;
 }
+
 .footer-title {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -405,6 +406,7 @@ ol {
   color: #4d5ae5;
   display: inline-block;
 }
+
 .footer-studio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -422,29 +424,28 @@ ol {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  text-wrap: wrap;
+  word-wrap: break-word; /* Замінив text-wrap на word-wrap */
 }
 
 .container-footer {
-  width: 1440px;
-  height: 312px;
-
+  width: 100%; /* Змінив ширину на 100%, щоб адаптувати до вмісту */
+  max-width: 1440px; /* Додав максимальну ширину для контейнера */
   display: flex;
-  align-items: baseline;
+  align-items: center;
+  justify-content: space-between;
   margin: 0 auto;
   padding: 0 120px;
 }
-img {
-  display: block;
-}
+
 .social-media-footer {
-  margin-bottom: 16px !important;
+  margin-bottom: 16px; /* Збільшив відступ вниз, ви вказали !important, але краще уникати його */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
+
 .social-media-list-footer {
   display: flex;
   gap: 16px;
@@ -452,14 +453,10 @@ img {
   padding: 0;
   margin: 0;
 }
+
 .instagram-footer {
-  display: inline-block;
   width: 40px;
   height: 40px;
-}
-.header-social-link-footer {
-  width: 100%;
-  height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
@@ -467,16 +464,31 @@ img {
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.instagram-footer:hover,
+.instagram-footer:focus {
+  background-color: #31d0aa;
+}
+
+.header-social-link-footer {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .header-social-link-footer:hover,
 .header-social-link-footer:focus {
   background-color: #31d0aa;
 }
+
 .socal-media-icons-footer {
-  fill: #f4f4fd;
+  fill: #f4f4fd; /* Додав fill для SVG іконок, як ви робили в інших частинах стилів */
   display: inline-block;
   align-items: center;
   justify-content: center;
-}
-.footer-addtional-container {
-  margin-right: 120px;
 }
