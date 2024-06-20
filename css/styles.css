@@ -404,7 +404,6 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 16px;
   display: inline-block;
 }
 .footer-studio {
@@ -440,12 +439,12 @@ img {
   display: block;
 }
 .social-media-footer {
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #FFFFFF;
-  margin-bottom: 16px;    
 }
 .social-media-list-footer {
   display: flex; 
