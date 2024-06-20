@@ -12,6 +12,15 @@ ol {
   padding: 0;
   margin: 0;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 .navigation {
   display: flex;
   align-items: center;
@@ -121,6 +130,9 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .container-one {
@@ -234,7 +246,6 @@ ol {
 }
 
 .container-three-name-and-profession {
-  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -280,7 +291,6 @@ ol {
   background-color: #4d5ae5;
 }
 .container-four-tool-and-name {
-  display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
@@ -426,9 +436,6 @@ ol {
 }
 
 .container-footer {
-  width: 1440px;
-  height: 312px;
-
   display: flex;
   align-items: baseline;
   margin: 0 auto;
